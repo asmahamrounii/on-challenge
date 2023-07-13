@@ -12,5 +12,5 @@ export class ProductionHostController {
   @Get('getProductionHost')
   getProductionHost(): string {
     return this.productionHostService.getProductionHost();
-  }
+  }  
 }
